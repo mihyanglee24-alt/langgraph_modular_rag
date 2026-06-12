@@ -6,7 +6,7 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "faiss-cpu>=1.14.2",
-    "fastapi>=0.136.3",
+    "fastapi[standard]>=0.136.3",
     "flashrank>=0.2.10",
     "grandalf>=0.8",
     "ipykernel>=7.2.0",
@@ -21,6 +21,7 @@ dependencies = [
     "langchain-tavily>=0.2.18",
     "langgraph>=1.2.4",
     "langsmith>=0.8.9",
+    "pandas>=3.0.3",
     "protobuf==3.20.3",
     "pypdf>=6.13.1",
     "python-dotenv>=1.2.2",
